@@ -1,0 +1,42 @@
+{
+  "name": "r3f-vite-starter",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "craco build",
+    "preview": "vite preview",
+    "start": "craco start",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@react-three/drei": "9.75.0",
+    "@react-three/fiber": "8.13.3",
+    "@react-three/xr": "^5.7.1",
+    "@types/three": "0.152.1",
+    "axios": "^1.8.4",
+    "framer-motion": "^12.6.2",
+    "leva": "^0.9.36",
+    "peerjs": "^1.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.4.0",
+    "simple-peer": "^9.11.1",
+    "socket.io-client": "^4.8.1",
+    "three": "0.153.0",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.16",
+    "node-polyfill-webpack-plugin": "^4.1.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.1.0"
+  }
+}
