@@ -1,5 +1,5 @@
 # Kaizen HackXplore - AI-driven College ERP System 🚀
-
+(Note - The final branch has all three modules, check them out)
 ## 📌 Problem Statement
 **AI-driven College Enterprise Resource Planning (ERP) System**
 
