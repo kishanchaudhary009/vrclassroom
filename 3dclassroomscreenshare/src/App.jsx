@@ -32,9 +32,10 @@ function App() {
               </div>
             }
           /> */}
-          <Route path="/startclass" element={<Start3DClass/>}/>
+          <Route path="/startclass" element={<Start3DClass />} />
           <Route path="/share" element={<ScreenShare />} />
           <Route path="/joinclass" element={<JoinClassroom />} />
+          <Route path="/democlassroom" element={<Classroomsinglecomponent />} />
         </Routes>
       </Router>
 
