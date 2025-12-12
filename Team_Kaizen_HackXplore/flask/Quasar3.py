@@ -27,12 +27,12 @@ app = Flask(__name__)
 CORS(app)
 
 # Configure APIs
-EDENAI_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjg4ZWRmMjYtOTkyYS00YjY1LWJjYTAtNGY5YTVlODdjNDJhIiwidHlwZSI6ImFwaV90b2tlbiJ9.EeXY9ylV5DbsT5-HO7hpmisWegdV9OgHBf8gI5XUIS8"
-API_KEY = "AIzaSyC1bnVlj3c5Ob56gXWgglUkM7xZI76SKsQ"
+EDENAI_API_KEY = "..-"
+API_KEY = ""
 genai.configure(api_key=API_KEY)
 
 # LMNT API key 
-LMNT_API_KEY = "b41b2d1dd2494ca0a54dcf92f1a74474"
+LMNT_API_KEY = ""
 # Configuration
 DB_PATH = "flask/chroma_db9"
 os.makedirs(DB_PATH, exist_ok=True)
