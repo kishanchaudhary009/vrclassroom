@@ -21,8 +21,8 @@ app = Flask(__name__)
 CORS(app)
 
 # Configure APIs
-EDENAI_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZDE3YjgwYzAtNzg5ZS00YmZkLWIwOTUtMWViZGE0YjNjMjY0IiwidHlwZSI6ImFwaV90b2tlbiJ9.X6hlGB842uLh2-CWDGgmt60ucJE6gYF-pS8BS0_lvXs"
-API_KEY = "AIzaSyD0OeybMGrh3-moDIORXej225okK2DAEM0"
+EDENAI_API_KEY = "..--pS8BS0_lvXs"
+API_KEY = "-"
 genai.configure(api_key=API_KEY)
 
 # Configuration
